@@ -1,0 +1,1043 @@
+{
+  "current": {
+    "background-color": "#ffffff",
+    "body-text-color": "#000000",
+    "accent-color": "#005995",
+    "heading-color": "#2e3438",
+    "border-color": "#0077c7",
+    "primary-button-color": "#fcfcfc",
+    "header-link-color": "#ffffff",
+    "header-dropdown-color": "#005995",
+    "form-select-background": "#005995",
+    "form-select-color": "#ffffff",
+    "form-select-border-color": "#4e7b99",
+    "footer-background-color": "#005995",
+    "footer-header-color": "#ffffff",
+    "footer-accent-color": "#ffffff",
+    "body_background_image": "",
+    "contrast_background_image": "",
+    "footer_background_image": "",
+    "body_font": "Google_Roboto+Slab_400,700",
+    "logo_font": "Google_Roboto+Slab_400,700",
+    "logo_font_weight": "700",
+    "logo_font_capitalize": true,
+    "heading_font": "Google_Rokkitt_400,700",
+    "heading_font_weight": "700",
+    "heading_font_capitalize": true,
+    "section_heading_font_weight": "400",
+    "section_heading_font_capitalize": true,
+    "meta_font_weight": "400",
+    "meta_font_capitalize": true,
+    "button_font": "Google_Volkhov_400,700",
+    "button_font_weight": "700",
+    "button_font_capitalize": true,
+    "breadcrumbs_enable": false,
+    "product_show_vendor": false,
+    "product_stock_overlay": false,
+    "product_stock_overlay_show": 5,
+    "social_facebook_url": "https:\/\/www.facebook.com\/Worldcupstreetnews-573978509661987\/",
+    "social_twitter_url": "",
+    "social_google_url": "",
+    "social_pinterest_url": "",
+    "social_instagram_url": "https:\/\/www.instagram.com\/worldcupstreetnews\/",
+    "social_vimeo_url": "",
+    "social_youtube_url": "",
+    "social_rss_url": "",
+    "show-currency-switcher": true,
+    "currency-switcher-format": "money_with_currency_format",
+    "currency-switcher-supported-currencies": "INR GBP CAD USD AUD EUR JPY",
+    "currency-switcher-default": "EUR",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/World_Cup_Street_Wear_Clothing_7a8ed3b6-a6b9-41e9-b820-b9aafd9b4b4b.jpg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "Open Sans",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "contrast-background-color": "#2E3438",
+    "meta-color": "#838b8f",
+    "error-color": "#b8474f",
+    "header-show-breadcrumbs": false,
+    "sections": {
+      "general-header": {
+        "type": "general-header",
+        "settings": {
+          "header_sticky": false,
+          "show_cart": true,
+          "show_search": true,
+          "header_logo": "shopify:\/\/shop_images\/World_Cup_Street_Wear_Clothing_7a8ed3b6-a6b9-41e9-b820-b9aafd9b4b4b.jpg",
+          "menu": "main-menu",
+          "menu_style": "below-header",
+          "color_override": "default",
+          "header_logo_alternate": "",
+          "show_promotion": true,
+          "promotion_home_only": false,
+          "promotion_style": "accent-style",
+          "promotion_text": "Cambia questo testo",
+          "promotion_url": ""
+        }
+      },
+      "module-product-slideshow": {
+        "type": "module-product-slideshow",
+        "settings": {
+          "slideshow_color": "#989ea0",
+          "slideshow_layout": "content-width",
+          "slideshow_transition": "transition-slide",
+          "autoplay": false,
+          "frequency": 5,
+          "thumbnail_pagination": true
+        }
+      },
+      "home-slideshow": {
+        "type": "home-slideshow",
+        "blocks": {
+          "slide-1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/soccer_field_2.jpg",
+              "alignment": "center",
+              "title": "WORLD CUP STREET WEAR",
+              "subtitle": "",
+              "caption": "<p>THE JOURNEY STARTS&nbsp;TODAY<\/p>",
+              "button": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slide-1"
+        ],
+        "settings": {
+          "enable": true,
+          "show_shadows": true,
+          "text_color": "#fdffff",
+          "slideshow_layout": "full-width",
+          "slideshow_transition": "transition-slide",
+          "autoplay": false,
+          "frequency": 5
+        }
+      },
+      "home-text-columns-with-images": {
+        "type": "home-text-columns-with-images",
+        "blocks": {
+          "column-1": {
+            "type": "text_column",
+            "settings": {
+              "title": "Ladies Crop Top",
+              "caption": "",
+              "button_text": "",
+              "button_link": "shopify:\/\/collections\/ladies-crop-top",
+              "image": "shopify:\/\/shop_images\/girl_with_brazil_shirt.jpg"
+            }
+          },
+          "column-2": {
+            "type": "text_column",
+            "settings": {
+              "title": "All Over Shirts",
+              "caption": "",
+              "button_text": "",
+              "button_link": "shopify:\/\/collections\/all-over-shirts",
+              "image": "shopify:\/\/shop_images\/guy_with_lewandowski_shirt.jpg"
+            }
+          },
+          "column-3": {
+            "type": "text_column",
+            "settings": {
+              "title": "T-Shirts",
+              "caption": "",
+              "button_text": "",
+              "button_link": "shopify:\/\/collections\/t-shirt",
+              "image": "shopify:\/\/shop_images\/I_heart_edition.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "column-1",
+          "column-2",
+          "column-3"
+        ],
+        "settings": {
+          "style": "contrast-style",
+          "title": "Collections"
+        }
+      },
+      "home-testimonials": {
+        "type": "home-testimonials",
+        "blocks": {
+          "testimonial-1": {
+            "type": "testimonial",
+            "settings": {
+              "quote": "The customer support team was kind enough to send me a free crop top. I love it it so much! Would recommend to buy again",
+              "source": "Lorissa, Brazil",
+              "avatar": ""
+            }
+          },
+          "testimonial-2": {
+            "type": "testimonial",
+            "settings": {
+              "quote": "Just received my Lewandowski all over shirt...very great quality with soft material. I would definately wear this shirt during the world cup! Go POLAND!!",
+              "source": "Filip,Poland",
+              "avatar": ""
+            }
+          }
+        },
+        "block_order": [
+          "testimonial-1",
+          "testimonial-2"
+        ],
+        "settings": {
+          "style": "default-style",
+          "title": "Testimonials"
+        }
+      },
+      "home-featured-product": {
+        "type": "home-featured-product",
+        "settings": {
+          "style": "default-style",
+          "title": "ALL OVER SHIRT DESIGNS",
+          "product": "all-over-england-shirt",
+          "description": "<p>This England All Over Shirt&nbsp;is super smooth, comfortable and made from a cotton touch polyester jersey that won't fade after washing. Product Details:<br>&bull; 96% polyester\/4% elastane<br>&bull; Premium knit mid-weight jersey<br>&bull; Four-way stretch fabric that stretches and recovers on the cross and lengthwise grains<br>&bull; Regular fit<\/p>",
+          "show_spb": false,
+          "enable_zoom": true,
+          "product_show_vendor": false,
+          "linked_options": true,
+          "variants_style": "select"
+        }
+      },
+      "home-instagram": {
+        "type": "home-instagram",
+        "settings": {
+          "style": "default-style",
+          "title": "FOLLOW @worldcupstreetwear ON INSTAGRAM AND TAG US FOR YOUR CHANCE TO BE FEATURED ON OUR PAGE",
+          "access_token": "7872068487.1677ed0.9928c670a63041d5856bef47548ad1a6",
+          "button_text": "",
+          "button_link": ""
+        }
+      },
+      "home-featured-collection": {
+        "type": "home-featured-collection",
+        "settings": {
+          "style": "default-style",
+          "title": "SHOP MORE AT WORLDCUPSTREETWEAR TODAY",
+          "button": "",
+          "link": "shopify:\/\/collections\/argentina",
+          "collection": "crew",
+          "products_in_rows": 3,
+          "number_of_rows": 1
+        }
+      },
+      "general-footer": {
+        "type": "general-footer",
+        "settings": {
+          "show_headings": true,
+          "show_share_buttons": true,
+          "menu_1": "footer",
+          "menu_2": "customer-care",
+          "show_payment_icons": true
+        }
+      },
+      "home-alternating-content": {
+        "type": "home-alternating-content",
+        "blocks": {
+          "home-alternating-content-1": {
+            "type": "image",
+            "settings": {
+              "media_alignment": "left",
+              "title": "ALL OVER SHIRTS",
+              "caption": "These All Over Shirts are made from comfortable and soft material. Many football fanatics can now style with their favourite players and teams while still looking fashionable",
+              "button_text": "",
+              "button_link": "",
+              "image": "shopify:\/\/shop_images\/guy_with_lewandowski_shirt.jpg"
+            }
+          },
+          "home-alternating-content-2": {
+            "type": "image",
+            "settings": {
+              "media_alignment": "right",
+              "title": "Ladies Crop Top",
+              "caption": "Who said women weren't allowed to love football? This is why we have created these luscious crop tops which are ideal for women of all ages. Now you can style for summer and look fabulous while supporting your favourite team",
+              "button_text": "",
+              "button_link": "",
+              "image": "shopify:\/\/shop_images\/girl_with_brazil_shirt.jpg"
+            }
+          },
+          "home-alternating-content-3": {
+            "type": "image",
+            "settings": {
+              "media_alignment": "left",
+              "title": "I Heart Collection",
+              "caption": "These Football T-Shirts are a great edition for fans that would love to represent their team in style! With over 32 different T-Shirt designs, every football fan  can now showcase their favourite World Cup team and still look good with them. These T-Shirts are designed for the fans that are really passionate and hardcore about their team.",
+              "button_text": "",
+              "button_link": "",
+              "image": "shopify:\/\/shop_images\/I_heart_edition.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "home-alternating-content-1",
+          "home-alternating-content-2",
+          "home-alternating-content-3"
+        ],
+        "settings": {
+          "style": "default-style",
+          "title": "",
+          "show_borders": true
+        }
+      },
+      "template-collection": {
+        "type": "template-collection",
+        "settings": {
+          "show_featured_image": false,
+          "show_description": true,
+          "tag_filtering": true,
+          "products_in_rows": 2,
+          "numbers_of_rows": 5
+        }
+      },
+      "module-product": {
+        "type": "module-product",
+        "blocks": {
+          "module-product-0": {
+            "type": "additional_info",
+            "settings": {
+              "info_text": "Additional info",
+              "info_url": "",
+              "info_icon": "info"
+            }
+          }
+        },
+        "block_order": [
+          "module-product-0"
+        ],
+        "settings": {
+          "show_spb": false,
+          "center_product_details": true,
+          "enable_zoom": true,
+          "product_show_vendor": false,
+          "linked_options": true,
+          "variants_style": "select",
+          "single_column_product": false,
+          "show_share_buttons": true,
+          "show_related_products": true
+        }
+      },
+      "home-image-with-text": {
+        "type": "home-image-with-text",
+        "settings": {
+          "style": "default-style",
+          "title": "Image with text",
+          "caption": "<p>Select imagery and text that relates to your style and story.<\/p>",
+          "button_text": "",
+          "button_link": "",
+          "image": "",
+          "media_layout": "regular"
+        }
+      },
+      "template-cart": {
+        "type": "template-cart",
+        "settings": {
+          "product_show_vendor": false,
+          "enable_order_notes": true,
+          "show_shipping_calculator": false,
+          "shipping_calculator_default_country": "United States"
+        }
+      },
+      "1527348454027": {
+        "type": "pxs-newsletter",
+        "settings": {
+          "title": "WORLDCUPSTREETWEAR",
+          "subheading": "Want receive an exclusive 10% discount? Enter your email and receive a discount code for your first order today",
+          "image": "",
+          "desktop_alignment": "left",
+          "mobile_alignment": "top"
+        }
+      }
+    },
+    "content_for_index": [
+      "home-alternating-content",
+      "home-text-columns-with-images",
+      "home-testimonials",
+      "home-featured-product",
+      "home-featured-collection",
+      "home-instagram",
+      "1527348454027"
+    ]
+  },
+  "presets": {
+    "Home": {
+      "background-color": "#ffffff",
+      "contrast-background-color": "#FAF7F6",
+      "body-text-color": "#988980",
+      "accent-color": "#DB3939",
+      "heading-color": "#68574D",
+      "meta-color": "#b7aba3",
+      "error-color": "#B84949",
+      "border-color": "#EDE7E4",
+      "primary-button-color": "#ffffff",
+      "header-link-color": "#988980",
+      "header-dropdown-color": "#ede7e4",
+      "form-select-background": "#ede7e4",
+      "form-select-color": "#988980",
+      "form-select-border-color": "#ede7e4",
+      "footer-background-color": "#2C211B",
+      "footer-header-color": "#ffffff",
+      "footer-accent-color": "#988980",
+      "body_font": "Google_Roboto_400,700",
+      "logo_font": "Google_Bitter_400,700",
+      "logo_font_weight": "700",
+      "heading_font": "Google_Bitter_400,700",
+      "heading_font_weight": "700",
+      "section_heading_font_weight": "700",
+      "meta_font_weight": "400",
+      "button_font": "Google_Roboto_400,700",
+      "button_font_weight": "700",
+      "logo_font_capitalize": true,
+      "heading_font_capitalize": false,
+      "section_heading_font_capitalize": true,
+      "meta_font_capitalize": true,
+      "button_font_capitalize": true,
+      "header-show-breadcrumbs": false,
+      "sections": {
+        "general-header": {
+          "type": "general-header",
+          "settings": {
+            "menu_style": "drawer",
+            "color_override": "default"
+          }
+        },
+        "module-product-slideshow": {
+          "type": "module-product-slideshow",
+          "settings": {
+            "slideshow_color": "#68574d",
+            "slideshow_layout": "full-bleed",
+            "slideshow_transition": "transition-slide",
+            "autoplay": true,
+            "frequency": 5
+          }
+        },
+        "home-slideshow": {
+          "type": "home-slideshow",
+          "blocks": {
+            "slide-1": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center"
+              }
+            },
+            "slide-2": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "enable": true,
+            "text_color": "#68574d",
+            "slideshow_layout": "full-bleed",
+            "autoplay": true,
+            "frequency": 6
+          }
+        },
+        "home-image-with-text": {
+          "type": "home-image-with-text",
+          "settings": {
+            "style": "default-style",
+            "media_layout": "regular"
+          }
+        },
+        "home-text-columns-with-images": {
+          "type": "home-text-columns-with-images",
+          "blocks": {
+            "column-1": {
+              "type": "text_column",
+              "settings": {}
+            },
+            "column-2": {
+              "type": "text_column",
+              "settings": {}
+            },
+            "column-3": {
+              "type": "text_column",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "column-1",
+            "column-2",
+            "column-3"
+          ],
+          "settings": {
+            "style": "contrast-style"
+          }
+        },
+        "home-testimonials": {
+          "type": "home-testimonials",
+          "blocks": {
+            "testimonial-1": {
+              "type": "testimonial",
+              "settings": {}
+            },
+            "testimonial-2": {
+              "type": "testimonial",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "testimonial-1",
+            "testimonial-2"
+          ],
+          "settings": {
+            "style": "default-style"
+          }
+        },
+        "home-featured-product": {
+          "type": "home-featured-product",
+          "settings": {
+            "style": "contrast-style",
+            "title": "Featured product"
+          }
+        },
+        "home-instagram": {
+          "type": "home-instagram",
+          "settings": {
+            "style": "default-style"
+          }
+        }
+      },
+      "content_for_index": [
+        "home-image-with-text",
+        "home-text-columns-with-images",
+        "home-testimonials",
+        "home-featured-product",
+        "home-instagram"
+      ]
+    },
+    "Tech": {
+      "background-color": "#ffffff",
+      "contrast-background-color": "#E05E60",
+      "body-text-color": "#51595D",
+      "accent-color": "#008090",
+      "heading-color": "#E05E60",
+      "meta-color": "#a0a2a3",
+      "error-color": "#b84949",
+      "border-color": "#D7DCDE",
+      "primary-button-color": "#ffffff",
+      "header-link-color": "#2cbb84",
+      "header-dropdown-color": "#d7dcde",
+      "footer-background-color": "#272B32",
+      "footer-header-color": "#ffffff",
+      "footer-accent-color": "#2CBB84",
+      "form-select-background": "#f4f5f5",
+      "form-select-color": "#2cbb84",
+      "form-select-border-color": "#d7dcde",
+      "body_font": "Google_Open+Sans_400,700",
+      "logo_font": "Google_Open+Sans_400,700",
+      "logo_font_weight": "700",
+      "heading_font": "Google_Open+Sans_400,700",
+      "heading_font_weight": "700",
+      "section_heading_font_weight": "700",
+      "meta_font_weight": "400",
+      "button_font": "Google_Roboto_400,700",
+      "button_font_weight": "700",
+      "logo_font_capitalize": false,
+      "heading_font_capitalize": false,
+      "section_heading_font_capitalize": false,
+      "meta_font_capitalize": false,
+      "button_font_capitalize": true,
+      "header-show-breadcrumbs": false,
+      "sections": {
+        "general-header": {
+          "type": "general-header",
+          "settings": {
+            "header_sticky": true,
+            "menu_style": "header"
+          }
+        },
+        "module-product-slideshow": {
+          "type": "module-product-slideshow",
+          "settings": {
+            "slideshow_color": "#2e3438",
+            "slideshow_layout": "content-width",
+            "autoplay": false
+          }
+        },
+        "home-slideshow": {
+          "type": "home-slideshow",
+          "blocks": {
+            "slide-1": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center"
+              }
+            },
+            "slide-2": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "enable": false,
+            "text_color": "#2e3438",
+            "slideshow_layout": "content-width",
+            "autoplay": false
+          }
+        },
+        "home-promotion": {
+          "type": "home-promotion",
+          "settings": {
+            "style": "default-style"
+          }
+        },
+        "home-image-with-text": {
+          "type": "home-image-with-text",
+          "settings": {
+            "style": "contrast-style",
+            "media_layout": "regular"
+          }
+        },
+        "home-alternating-content": {
+          "type": "home-alternating-content",
+          "blocks": {
+            "home-alternating-content-1": {
+              "type": "image",
+              "settings": {
+                "media_alignment": "left"
+              }
+            },
+            "home-alternating-content-2": {
+              "type": "image",
+              "settings": {
+                "media_alignment": "right"
+              }
+            }
+          },
+          "block_order": [
+            "home-alternating-content-1",
+            "home-alternating-content-2"
+          ],
+          "settings": {
+            "style": "default-style",
+            "title": "Alternating content",
+            "show_borders": false
+          }
+        },
+        "home-testimonials": {
+          "type": "home-testimonials",
+          "blocks": {
+            "testimonial-1": {
+              "type": "testimonial",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "testimonial-1"
+          ],
+          "settings": {
+            "style": "contrast-style"
+          }
+        },
+        "home-featured-product": {
+          "type": "home-featured-product",
+          "settings": {
+            "style": "default-style",
+            "title": "Featured product"
+          }
+        },
+        "home-instagram": {
+          "type": "home-instagram",
+          "settings": {
+            "style": "contrast-style"
+          }
+        }
+      },
+      "content_for_index": [
+        "home-promotion",
+        "home-image-with-text",
+        "home-alternating-content",
+        "home-testimonials",
+        "home-featured-product",
+        "home-instagram"
+      ]
+    },
+    "Cloth": {
+      "background-color": "#ffffff",
+      "contrast-background-color": "#2E3438",
+      "body-text-color": "#838B8F",
+      "accent-color": "#4E7B99",
+      "heading-color": "#2E3438",
+      "meta-color": "#838b8f",
+      "error-color": "#b8474f",
+      "border-color": "#EDF0F2",
+      "primary-button-color": "#ffffff",
+      "header-link-color": "#838B8F",
+      "header-dropdown-color": "#D7DCDE",
+      "form-select-background": "#F4F5F5",
+      "form-select-color": "#838B8F",
+      "form-select-border-color": "#D7DCDE",
+      "footer-background-color": "#4E7B99",
+      "footer-header-color": "#ffffff",
+      "footer-accent-color": "#ffffff",
+      "body_font": "Google_Open+Sans_400,700",
+      "logo_font": "Google_Open+Sans_400,700",
+      "logo_font_weight": "700",
+      "heading_font": "Google_Volkhov_400,700",
+      "heading_font_weight": "700",
+      "section_heading_font_weight": "400",
+      "meta_font_weight": "400",
+      "button_font": "Google_Volkhov_400,700",
+      "button_font_weight": "700",
+      "logo_font_capitalize": true,
+      "heading_font_capitalize": false,
+      "section_heading_font_capitalize": true,
+      "meta_font_capitalize": true,
+      "button_font_capitalize": true,
+      "header-show-breadcrumbs": false,
+      "sections": {
+        "general-header": {
+          "type": "general-header",
+          "settings": {
+            "menu_style": "below-header"
+          }
+        },
+        "module-product-slideshow": {
+          "type": "module-product-slideshow",
+          "settings": {
+            "slideshow_color": "#989ea0",
+            "slideshow_layout": "content-width",
+            "autoplay": false
+          }
+        },
+        "home-slideshow": {
+          "type": "home-slideshow",
+          "blocks": {
+            "slide-1": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center"
+              }
+            },
+            "slide-2": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "enable": true,
+            "show_shadows": true,
+            "text_color": "#989ea0",
+            "slideshow_layout": "full-width",
+            "autoplay": false
+          }
+        },
+        "home-image-with-text": {
+          "type": "home-image-with-text",
+          "settings": {
+            "style": "default-style",
+            "media_layout": "regular"
+          }
+        },
+        "home-text-columns-with-images": {
+          "type": "home-text-columns-with-images",
+          "blocks": {
+            "column-1": {
+              "type": "text_column",
+              "settings": {}
+            },
+            "column-2": {
+              "type": "text_column",
+              "settings": {}
+            },
+            "column-3": {
+              "type": "text_column",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "column-1",
+            "column-2",
+            "column-3"
+          ],
+          "settings": {
+            "style": "contrast-style"
+          }
+        },
+        "home-testimonials": {
+          "type": "home-testimonials",
+          "blocks": {
+            "testimonial-1": {
+              "type": "testimonial",
+              "settings": {}
+            },
+            "testimonial-2": {
+              "type": "testimonial",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "testimonial-1",
+            "testimonial-2"
+          ],
+          "settings": {
+            "style": "default-style"
+          }
+        },
+        "home-featured-product": {
+          "type": "home-featured-product",
+          "settings": {
+            "style": "default-style",
+            "title": "Featured product"
+          }
+        },
+        "home-instagram": {
+          "type": "home-instagram",
+          "settings": {
+            "style": "default-style"
+          }
+        },
+        "home-alternating-content": {
+          "type": "home-alternating-content",
+          "blocks": {
+            "home-alternating-content-1": {
+              "type": "image",
+              "settings": {
+                "media_alignment": "left"
+              }
+            },
+            "home-alternating-content-2": {
+              "type": "image",
+              "settings": {
+                "media_alignment": "right"
+              }
+            },
+            "home-alternating-content-3": {
+              "type": "image",
+              "settings": {
+                "media_alignment": "left"
+              }
+            }
+          },
+          "block_order": [
+            "home-alternating-content-1",
+            "home-alternating-content-2",
+            "home-alternating-content-3"
+          ],
+          "settings": {
+            "style": "default-style",
+            "title": "Alternating content",
+            "show_borders": true
+          }
+        },
+        "home-featured-collection": {
+          "type": "home-featured-collection",
+          "settings": {
+            "style": "default-style",
+            "title": "Featured collection"
+          }
+        },
+        "home-logo-list": {
+          "type": "home-logo-list",
+          "blocks": {
+            "logo-1": {
+              "type": "logo",
+              "settings": {}
+            },
+            "logo-2": {
+              "type": "logo",
+              "settings": {}
+            },
+            "logo-3": {
+              "type": "logo",
+              "settings": {}
+            },
+            "logo-4": {
+              "type": "logo",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "logo-1",
+            "logo-2",
+            "logo-3",
+            "logo-4"
+          ],
+          "settings": {
+            "style": "default-style"
+          }
+        }
+      },
+      "content_for_index": [
+        "home-image-with-text",
+        "home-alternating-content",
+        "home-text-columns-with-images",
+        "home-testimonials",
+        "home-featured-product",
+        "home-featured-collection",
+        "home-logo-list",
+        "home-instagram"
+      ]
+    },
+    "Art": {
+      "background-color": "#ffffff",
+      "contrast-background-color": "#6FC3C4",
+      "body-text-color": "#060C0C",
+      "accent-color": "#0B8484",
+      "heading-color": "#060C0C",
+      "meta-color": "#a0a2a3",
+      "error-color": "#b84949",
+      "border-color": "#e8eced",
+      "primary-button-color": "#ffffff",
+      "header-link-color": "#0B8484",
+      "header-dropdown-color": "#b8c8c8",
+      "form-select-background": "#ffffff",
+      "form-select-color": "#6a9898",
+      "form-select-border-color": "#b8c8c8",
+      "footer-background-color": "#050D0E",
+      "footer-header-color": "#ffffff",
+      "footer-accent-color": "#5FB8B7",
+      "body_font": "Google_Montserrat_400,700",
+      "logo_font": "Google_Montserrat_400,700",
+      "logo_font_weight": "700",
+      "heading_font": "Google_Montserrat_400,700",
+      "heading_font_weight": "700",
+      "section_heading_font_weight": "700",
+      "meta_font_weight": "400",
+      "button_font": "Google_Montserrat_400,700",
+      "button_font_weight": "700",
+      "logo_font_capitalize": true,
+      "heading_font_capitalize": false,
+      "section_heading_font_capitalize": true,
+      "meta_font_capitalize": true,
+      "button_font_capitalize": true,
+      "header-show-breadcrumbs": false,
+      "sections": {
+        "general-header": {
+          "type": "general-header",
+          "settings": {
+            "header_sticky": true,
+            "menu_style": "header"
+          }
+        },
+        "module-product-slideshow": {
+          "type": "module-product-slideshow",
+          "settings": {
+            "slideshow_color": "#060c0c",
+            "slideshow_layout": "content-width",
+            "autoplay": false
+          }
+        },
+        "home-slideshow": {
+          "type": "home-slideshow",
+          "blocks": {
+            "slide-1": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center"
+              }
+            },
+            "slide-2": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "enable": false,
+            "text_color": "#060c0c",
+            "slideshow_layout": "full-width",
+            "autoplay": false
+          }
+        },
+        "home-promotion": {
+          "type": "home-promotion",
+          "settings": {
+            "style": "default-style"
+          }
+        },
+        "home-image-with-text": {
+          "type": "home-image-with-text",
+          "settings": {
+            "style": "contrast-style",
+            "media_layout": "regular"
+          }
+        },
+        "home-featured-product": {
+          "type": "home-featured-product",
+          "settings": {
+            "style": "default-style",
+            "title": "Featured product"
+          }
+        },
+        "home-featured-collection": {
+          "type": "home-featured-collection",
+          "settings": {
+            "style": "contrast-style",
+            "title": "Featured collection"
+          }
+        },
+        "home-testimonials": {
+          "type": "home-testimonials",
+          "blocks": {
+            "testimonial-1": {
+              "type": "testimonial",
+              "settings": {}
+            },
+            "testimonial-2": {
+              "type": "testimonial",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "testimonial-1",
+            "testimonial-2"
+          ],
+          "settings": {
+            "style": "default-style"
+          }
+        },
+        "home-instagram": {
+          "type": "home-instagram",
+          "settings": {
+            "style": "contrast-style"
+          }
+        }
+      },
+      "content_for_index": [
+        "home-promotion",
+        "home-image-with-text",
+        "home-featured-product",
+        "home-featured-collection",
+        "home-testimonials",
+        "home-instagram"
+      ]
+    }
+  }
+}
