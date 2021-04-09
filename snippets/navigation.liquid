@@ -1,0 +1,81 @@
+{% comment %}
+  @param style {string}
+    - Pass as 'below-header' to enable meganav.
+    - 'below-header' must not be passed to drawer
+{% endcomment %}
+
+<nav class="navigation {% if style %}{{ style }}{% endif %}">
+  <ul class="primary">
+    {% for link in linklists[section.settings.menu].links %}
+      {%
+        include 'is-dropdown-or-meganav',
+        first_tier_link: link
+      %}
+
+      {% if style != 'below-header' %}
+        {% if is_meganav and style == 'mobile' %}
+          {% assign is_dropdown = true %}
+        {% elsif is_meganav and style == 'header' %}
+          {% assign is_dropdown = true %}
+        {% endif %}
+
+        {% assign is_meganav = false %}
+      {% endif %}
+
+      <li class="{% if is_dropdown or is_meganav %}has-dropdown{% if is_meganav %} has-mega-nav{% else %} simple-dropdown{% endif %}{% endif %}">
+        <a class="main-nav-item" href="{{ link.url }}"{% if is_dropdown or is_meganav %} aria-haspopup{% endif %}>
+          {{ link.title }}
+
+          {% if is_dropdown or is_meganav %}
+            <div class="dropdown-toggle" tabIndex="0" role="button" aria-controls="navigation-{{ link.handle }}" aria-expanded="false">
+              {% include 'icon-plus' %}
+            </div>
+          {% endif %}
+        </a>
+
+        {% if is_dropdown or is_meganav %}
+          {% if is_meganav %}
+            {% if link.links.size < 5 %}
+              {% assign meganav_class = 'showing-' | append: link.links.size %}
+            {% else %}
+              {% assign meganav_class = 'showing-5-or-more' %}
+            {% endif %}
+
+            <div class="mega-nav {{ meganav_class }}">
+          {% endif %}
+
+          <ul class="dropdown-second-tier {% if style == 'below-header' %}secondary{% endif %}">
+            {% if is_meganav %}
+              {% for link in link.links %}
+                <li>
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                  <ul class="tertiary">
+                    {% for link in link.links %}
+                      <li>
+                        <a href="{{ link.url }}">{{ link.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% endfor %}
+            {% else %}
+              {% for link in link.links %}
+                {%
+                  include 'navigation-menu',
+                  style: style,
+                  link: link
+                %}
+              {% endfor %}
+            {% endif %}
+          </ul>
+
+          {% if is_meganav %}
+            </div>
+          {% endif %}
+        {% endif %}
+      </li>
+
+    {% endfor %}
+
+  </ul>
+</nav>

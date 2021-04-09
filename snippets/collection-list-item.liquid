@@ -1,0 +1,48 @@
+{% if collection-list-item == 'linklist' %}
+  {% assign collection = collections[link.handle] %}
+{% endif %}
+
+{% assign collection_image = collection.image %}
+
+{% unless collection.image %}
+  {% assign collection_image = collection.products.first.featured_image %}
+{% endunless %}
+
+<article
+  class="collection-list-item"
+  {%
+    include 'rimg',
+    img: collection_image,
+    size: '1024x1024',
+    crop: 'center',
+    background: true,
+    lazy: true
+  %}
+>
+
+  <a class="mobile-collection-image" href="{{ collection.url }}">
+    {%
+      include 'rimg',
+      img: collection_image,
+      alt: collection.title,
+      size: '1024x1024',
+      crop: 'center',
+      lazy: true
+    %}
+  </a>
+
+  <a class="collection-link" href="{{ collection.url }}">
+
+    <div class="collection-details">
+      <h1>{{ collection.title }}</h1>
+
+      {% if collection.description.size != blank and section.settings.show_description %}
+      <div class="rte">
+        <p>{{ collection.description | strip_html | truncate: 100 }}</p>
+      </div>
+      {% endif %}
+    </div>
+
+  </a>
+
+</article>

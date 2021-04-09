@@ -1,0 +1,31 @@
+{%
+  include 'is-dropdown-or-meganav',
+  first_tier_link: link
+%}
+
+<li class="{% if is_dropdown %}has-dropdown{% endif %}">
+  <a href="{{ link.url }}"{% if is_dropdown %} aria-haspopup{% endif %}>
+    {{ link.title }}
+
+    {% if is_dropdown %}
+      <div class="dropdown-toggle" tabIndex="0" role="button" aria-controls="navigation-{{ link.handle }}" aria-expanded="false">
+        {% include 'icon-plus' %}
+      </div>
+    {% endif %}
+  </a>
+
+  {% if is_dropdown %}
+    <ul class="dropdown-third-tier">
+      {% for link in link.links %}
+        {%
+          include 'is-dropdown-or-meganav',
+          first_tier_link: link
+        %}
+
+        <li>
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</li>
